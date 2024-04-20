@@ -34,7 +34,7 @@ export async function POST(req: Request) {
 	if (!prompt) return new Response("Prompt is required", { status: 400 });
 
 	const response = await groq.chat.completions.create({
-		model: "llama3-8b-8192",
+		model: "llama3-70b-8192",
 		stream: true,
 		messages: [
 			{
