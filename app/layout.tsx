@@ -69,9 +69,9 @@ export default function RootLayout({
 						</A>
 					</p>
 				</footer>
-
-				<Analytics />
-				<SpeedInsights />
+				
+                                {/* <Analytics /> */}
+                                {/* <SpeedInsights /> */}
 			</body>
 		</html>
 	);
